@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-main: hsl(241, 95%, 9%);
+  --color-btn-blue-hover: hsl(248, 71%, 36%);
+  --color-btn-blue: hsl(233, 67%, 56%);
+  --color-neutral-light-gray: hsl(250, 6%, 84%);
+  --color-text-light-gray: hsl(240, 6%, 70%);
+  --color-bg-gray: hsl(240, 26%, 20%);
+  --color-bg-light-gray: hsl(240, 22%, 24%);
+
+  --font-DM-Sans: "DM Sans", sans-serif;
+  --font-Bricolage-Grotesque: "Bricolage Grotesque", sans-serif;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("../assets/fonts/DM_Sans/DMSans-Light.ttf") format("ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("../assets/fonts/DM_Sans/DMSans-Medium.ttf") format("ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("../assets/fonts/DM_Sans/DMSans-SemiBold.ttf") format("ttf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("../assets/fonts/DM_Sans/DMSans-Bold.ttf") format("ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bricolage Grotesque";
+  src: url("../assets/fonts/Bricolage_Grotesque/BricolageGrotesque-Bold.ttf")
+    format("ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+    background-color: var(--color-bg-main);
+    font-family: var(--font-DM-Sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-Bricolage-Grotesque);
+    font-weight: 700;
+}
+
