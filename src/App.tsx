@@ -1,13 +1,11 @@
-function App() {
+import { Header } from "./components/Header";
 
+function App() {
   return (
     <>
-    <section className="bg-bg-main text-text-light-gray">
-      <h1>saaaaaaaaaaaaa</h1>
-      <p>fffffffffff</p>
-    </section>
+      <Header />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
